@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/recyclerViewDate"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="16dp"
+        android:text="date"
+        android:textColor="@color/teal_200"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035"></TextView>
+
+    <TextView
+        android:id="@+id/recyclerViewUserEmailText"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+
+        android:text="usermail text"
+        android:textColor="@color/teal_200"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035"
+        tools:ignore="MissingConstraints"></TextView>
+
+    <ImageView
+        android:id="@+id/recyclerViewImageView"
+        android:layout_width="481dp"
+        android:layout_height="390dp"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <TextView
+        android:id="@+id/recyclerViewCommentText"
+        android:layout_width="459dp"
+        android:layout_height="42dp"
+
+
+        android:layout_marginTop="430dp"
+        android:text="user comment"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="520dp"
+        android:layout_height="7dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerViewUserEmailText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
